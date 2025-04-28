@@ -1,0 +1,26 @@
+{
+    "area": {
+      "Metro cuadrado": "m2",
+      "Kilómetro cuadrado": "km2",
+      "Hectárea": "Ha"
+    },
+    "longitud": {
+      "Metro": "m",
+      "Kilómetro": "km",
+      "Centímetro": "cm",
+      "Milímetro": "mm",
+      "Micrómetro": "um",
+      "Nanómetro": "nm",
+      "Milla": "millas"
+    },
+    "masa": {
+      "Kilogramo": "kg",
+      "Gramo": "g",
+      "Libra": "lb"
+    },
+    "temperatura": {
+      "Celsius": "C",
+      "Fahrenheit": "F",
+      "Kelvin": "K"
+    }
+  }
