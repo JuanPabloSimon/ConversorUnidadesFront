@@ -31,6 +31,7 @@ const UnitConverter = () => {
     );
     const data = await response.json();
     setResultado(data);
+    setCargando(false);
   };
 
   const handleType = (e) => {
