@@ -1,3 +1,7 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,38 +9,40 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.select {
+  height: 2em;
+  width: 13em;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 10px;
+  padding-left: 1em;
+  transition: all ease-in-out 0.3s;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select:hover {
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.option {
+  height: 2em;
+  text-align: left;
+  font-size: 0.5em;
+  border-radius: 10px;
 }
 
-.card {
-  padding: 2em;
+.inputValor {
+  height: 2em;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 10px;
+  padding-left: 1em;
 }
 
-.read-the-docs {
-  color: #888;
+.buttonConvertir {
+  transition: all ease-in-out 0.3s;
+  margin: 1em;
+}
+
+.buttonConvertir:hover {
+  background-color: black;
 }
